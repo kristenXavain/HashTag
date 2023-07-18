@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="37.222">
+    <testcase classname="HashTagWebsite" name="HashTag Join Us Page" time="37.017">
+        <system-out><![CDATA[Given user Launch The Application By Using The Url..........................passed
+When user Enters The UserName in The Name Field.............................passed
+And user Enters The EmailId Of The User in the Email Field..................passed
+And user Enters The Phone Number In The Phone Number Field and It Must be only Integer.passed
+And user Clicks The Choose File Option For Uploading Resume and File Folder Will Open.passed
+And user Selects Some file..................................................passed
+And user Can Give Their Description In the Description Field................passed
+Then user Clicks The Apply Now button and It Will Navigate To The Apply Now Page.passed
+]]></system-out>
+    </testcase>
+</testsuite>

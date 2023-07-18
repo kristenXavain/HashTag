@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-18T08:56:13.026Z",
+        "line": 3,
+        "name": "HashTag Join Us Page",
+        "description": "",
+        "id": "hashtagwebsite;hashtag-join-us-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3587339800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The Application By Using The Url",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_launch_the_application_by_using_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262293300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enters The UserName in The Name Field",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_enters_the_user_name_in_the_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202460500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enters The EmailId Of The User in the Email Field",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_enters_the_email_id_of_the_user_in_the_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88754900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enters The Phone Number In The Phone Number Field and It Must be only Integer",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_enters_the_phone_number_in_the_phone_number_field_and_it_must_be_only_integer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15338980400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Clicks The Choose File Option For Uploading Resume and File Folder Will Open",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_clicks_the_choose_file_option_for_uploading_resume_and_file_folder_will_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101100600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Selects Some file",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_selects_some_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131967700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Can Give Their Description In the Description Field",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_can_give_their_description_in_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16104431200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Clicks The Apply Now button and It Will Navigate To The Apply Now Page",
+            "match": {
+              "location": "com.HashTag_Step.StepDefinition.user_clicks_the_apply_now_button_and_it_will_navigate_to_the_apply_now_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HashTagWebsite",
+    "description": "",
+    "id": "hashtagwebsite",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/hashtag.feature",
+    "tags": []
+  }
+]
